@@ -1,0 +1,60 @@
+@media (max-width: 400px) {
+    #navbar #logo img {
+        position: relative;
+        top: 10px;
+        left: 15%;
+        display: inline-block;
+        width: 70%;
+    }
+
+    #form #main-form input::placeholder {
+        font-size: 12px;
+    }
+
+    .btn button {
+        margin: 30px 5px;
+        padding: 18px;
+        font-size: 13px;
+        border-radius: 15px;
+    }
+
+    #contact {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    #contact h4 {
+        font-size: 21px;
+    }
+
+    #footer {
+        font-size: 17px;
+    }
+}
+
+
+/* Navbar Section */
+#navbar {
+    margin: auto;
+}
+
+#navbar #logo {
+    width: auto;
+    margin: auto;
+}
+
+#right {
+    display: none;
+}
+
+
+/* Carousel Section */
+#carousel {
+    display: none;
+}
+
+
+/* Form Section */
+#form #main-form input {
+    width: 50%;
+}
